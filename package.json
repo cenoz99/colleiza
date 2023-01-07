@@ -1,0 +1,27 @@
+{
+  "name": "colleiza",
+  "version": "1.0.0",
+  "description": "api node.js, express mysql",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vue-cli-service build"
+  },
+  "keywords": [
+    "ndejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "Michael Cenoz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7"
+  }
+}
